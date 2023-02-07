@@ -21,4 +21,8 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* rails g devise:controllers users -c sessions registrations
+
+* rails g migration add_jti_to_users 
+
+* rails db:migrate
